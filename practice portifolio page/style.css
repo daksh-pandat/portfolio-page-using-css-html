@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: #2E073F;
+    color: #000000;
+    background-image: url("tianshu-liu-aqZ3UAjs_M4-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainfooter{
+    background-color:transparent;
+    color:white ;
+    border-radius: 10px;
+     display: flex;
+     flex-direction: row;
+    justify-content: space-between;
+    height: 8em;
+    align-items: center;
+    
+}
+#footercopyright{
+    background-color: #000000;
+    height: 1em;
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+    
+}
+.footeranchor:hover{
+    border: 2px solid white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    display: inline-block;
+    font-size: 50px ;
+    color: rgba(78, 225, 244, 0.604);
+    text-align: center;
+    padding-left: 7em;
+}
+
+
+/* main star here  */
+
+
+main{
+    
+    margin-top: 1em;
+    height: 50em;
+}
+#aboutme{
+    color: black;
+    font-weight: 550;
+    padding-left:1em ;
+    height: 40em;
+    width: 60em;
+}
+#h3aboutme{
+    text-align: center;
+}
+
+.linksboxparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height:27em ;
+    width: 50em ;
+
+}
+.linkboximg{
+    border-radius: 15%;
+}
